@@ -19,7 +19,7 @@ for step in directions:
 pos = coords[0]
 depth = coords[1]
 
-print(pos, depth, pos*depth)
+print(pos*depth)
 
 new_coords = [0,0,0]
 # aim, position, depth
@@ -39,4 +39,4 @@ aim = new_coords[0]
 pos = new_coords[1]
 depth = new_coords[2]
 
-print(pos, depth, pos*depth)
+print(pos*depth)
